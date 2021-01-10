@@ -890,9 +890,22 @@ div[class*="col-"] {
   padding: 5rem 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .logo {
+    padding: 2rem 0;
+  }
+}
+
 .logo__img {
   width: 250px;
   height: 250px;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo__img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .nav {
@@ -905,12 +918,12 @@ div[class*="col-"] {
 
 @media only screen and (max-width: 767px) {
   .nav {
-    width: 40rem;
+    width: 36rem;
   }
 }
 
 .nav__link {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #333;
   text-decoration: none;
 }
@@ -922,7 +935,7 @@ div[class*="col-"] {
 }
 
 .nav__slash {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #333;
 }
 
@@ -940,6 +953,12 @@ div[class*="col-"] {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .landing {
+    height: 400px;
+  }
 }
 
 .story {
