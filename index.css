@@ -903,15 +903,33 @@ div[class*="col-"] {
   padding: 3rem 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .nav {
+    width: 40rem;
+  }
+}
+
 .nav__link {
   font-size: 2.4rem;
   color: #333;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .nav__link {
+    font-size: 2rem;
+  }
+}
+
 .nav__slash {
   font-size: 2.4rem;
   color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav__slash {
+    font-size: 2rem;
+  }
 }
 
 .landing {
@@ -935,6 +953,14 @@ div[class*="col-"] {
   color: #222;
 }
 
+@media only screen and (max-width: 767px) {
+  .story__main {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    line-height: 4.5rem;
+  }
+}
+
 .product {
   margin-top: 10rem;
 }
@@ -946,6 +972,12 @@ div[class*="col-"] {
 .product__item {
   border-radius: 5px;
   background-color: #eee;
+}
+
+@media only screen and (max-width: 767px) {
+  .product__item--margin {
+    margin-bottom: 5rem;
+  }
 }
 
 .product__img {
@@ -1000,6 +1032,12 @@ div[class*="col-"] {
   border: 1px solid #8c8c8c;
   border-radius: 5px;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact__box {
+    margin-bottom: 3rem;
+  }
 }
 
 .contact__link {
